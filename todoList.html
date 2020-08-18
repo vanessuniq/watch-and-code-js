@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical JavaScript</title>
+</head>
+<body onload="view.displayTodos()">
+    <h1>My Todo List</h1>
+    <div>
+        <button onclick = "handler.toggleAll()">Toggle All</button>
+    </div><br><br>
+    <div>
+        <input type="text" name="description" id="todo">
+        <input type="submit" value="Add todo" onclick="handler.addTodo()" >
+    </div><br>
+    <ol></ol>
+
+    <script type="text/javascript" src="todoList.js" defer></script>
+</body>
+</html>
